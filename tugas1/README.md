@@ -53,7 +53,7 @@ Mentransfer file yang direquest client ke server
 #### Client mengirim file
 ![alt text](tugas1b/Capture/client.PNG)
 #### Server Menerima file
-![alt text](tugas1b/Capture/erver.PNG)
+![alt text](tugas1b/Capture/server.PNG)
 #### File yang dikirim dan terkirim
 ![alt text](tugas1b/Capture/file_dikirim.PNG)
 ![alt text](tugas1b/Capture/file_terkirim.PNG)
