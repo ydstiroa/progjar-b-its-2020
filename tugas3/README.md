@@ -9,8 +9,8 @@
 
 * Berikut adalah hasil fotonya
 Foto pertama
-![Capture Udp_simple](Capture/Foto Ke-1.JPG)
+![Capture Udp_simple](Capture/Foto Ke-1.jpg)
 Foto Kedua
-![Capture Udp_simple](Capture/Foto Ke-2.JPG)
+![Capture Udp_simple](Capture/Foto Ke-2.jpg)
 Foto Ketiga
-![Capture Udp_simple](Capture/Foto Ke-3.JPG)
+![Capture Udp_simple](Capture/Foto Ke-3.jpg)
