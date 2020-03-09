@@ -8,9 +8,9 @@
 ![Capture Udp_simple](Capture/terdownload.PNG)
 
 * Berikut adalah hasil fotonya
-Foto pertama
+*Foto pertama
 ![Capture Udp_simple](Capture/Foto_Ke-1.jpg)
-Foto Kedua
+*Foto Kedua
 ![Capture Udp_simple](Capture/Foto_Ke-2.jpg)
-Foto Ketiga
+*Foto Ketiga
 ![Capture Udp_simple](Capture/Foto_Ke-3.jpg)
