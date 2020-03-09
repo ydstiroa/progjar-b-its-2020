@@ -4,6 +4,8 @@ import threading
 import datetime
 import os
 
+threads = []
+
 def download_gambar(url=None,nama=None):
     if (url is None):
         return False
@@ -31,13 +33,12 @@ def download_gambar(url=None,nama=None):
 
 if __name__=='__main__':
 
-    threads = []
-
-    x = threading.Thread(target=download_gambar, args=('https://asset.kompas.com/crops/AaItk5N9tIU_oFAfrf_kCyFL8YE=/0x0:0x0/750x500/data/photo/2020/03/09/5e65b4908df04.jpg','Foto Ke-1',))
+    x = threading.Thread(target=download_gambar, args=('https://asset.kompas.com/crops/AaItk5N9tIU_oFAfrf_kCyFL8YE=/0x0:0x0/750x500/data/photo/2020/03/09/5e65b4908df04.jpg','Foto_Ke-1',))
     threads.append(x)
-    x = threading.Thread(target=download_gambar, args=('https://asset.kompas.com/crops/3v1kOS1k0kFjbzPDSIqTLtXEPbc=/18x0:734x477/750x500/data/photo/2020/03/09/5e65613d60411.jpg','Foto Ke-2',))
+    x = threading.Thread(target=download_gambar, args=('https://asset.kompas.com/crops/3v1kOS1k0kFjbzPDSIqTLtXEPbc=/18x0:734x477/750x500/data/photo/2020/03/09/5e65613d60411.jpg','Foto_Ke-2',))
     threads.append(x)
-    x = threading.Thread(target=download_gambar, args=('https://asset.kompas.com/crops/l-zUYoLCXYyKqMaAVNz9SexPXsg=/0x0:864x576/750x500/data/photo/2018/11/16/2037804675.jpg','Foto Ke-3',))
+    x = threading.Thread(target=download_gambar, args=('https://asset.kompas.com/crops/l-zUYoLCXYyKqMaAVNz9SexPXsg=/0x0:864x576/750x500/data/photo/2018/11/16/2037804675.jpg','Foto_Ke-3',))
     threads.append(x)
+    
     for i in threads:
         i.start()
