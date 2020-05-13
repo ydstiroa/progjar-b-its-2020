@@ -5,8 +5,8 @@
 server_async_http.py pada port 45000
 | No Test | Currency Level | Time taken for test | Complete request | Failed request | Total transferred | Request per second | Time per request | Transfer rate |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 1 | 1 | 3.322 seconds | 1000 | 0 | 122000 bytes | 301.06 [#/sec] | 3.322 ms | 35.87 Kbytes/sec |
-| 2 | 10 | 8.085 seconds | 1000 | 0 | 122000 bytes | 123.68 [#/sec] | 8.085 ms | 14.74 Kbytes/sec |
+| 1 | 10 | 8.085 seconds | 1000 | 0 | 122000 bytes | 123.68 [#/sec] | 8.085 ms | 14.74 Kbytes/sec |
+| 2 | 25 | 7.555 seconds | 1000 | 0 | 122000 bytes | 132.37 [#/sec] | 7.555 ms | 15.77 Kbytes/sec |
 | 3 | 100 | 2.440 seconds | 1000 | 0 | 122000 bytes | 243.998 [#/sec] | 2.440 ms | 48.83 Kbytes/sec |
 | 4 | 500 | 0.731 seconds | 1000 | 0 | 122000 bytes | 1367.69 [#/sec] | 0.731 ms | 39.60 Kbytes/sec |
 | 5 | 1000 | 1.193 seconds | 1000 | 0 | 122000 bytes | 838.52 [#/sec] | 1.193 ms | 38.76 Kbytes/sec |
